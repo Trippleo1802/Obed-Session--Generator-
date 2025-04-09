@@ -106,7 +106,7 @@ router.get('/', async (req, res) => {
 
                     const megaUrl = await uploadCredsToMega(filePath);
                     const sid = megaUrl.includes("https://mega.nz/file/")
-                        ? 'POPKID~' + megaUrl.split("https://mega.nz/file/")[1]
+                        ? 'QUEEN~' + megaUrl.split("https://mega.nz/file/")[1]
                         : 'Error: Invalid URL';
 
                     console.log(`Session ID: ${sid}`);
@@ -121,7 +121,7 @@ router.get('/', async (req, res) => {
 🔑 *Copy & Paste the SESSION_ID Above*🛠️ Add it to your environment variable: *SESSION_ID*.
 
 📱FOLLOW OUR CHANNEL
-https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l`;
+https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26`;
 
                     await Malvin.sendMessage(Malvin.user.id, { text: MALVIN_TEXT }, { quoted: session });
 
