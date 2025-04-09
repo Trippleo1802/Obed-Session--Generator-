@@ -114,14 +114,14 @@ router.get('/', async (req, res) => {
                     const session = await Malvin.sendMessage(Malvin.user.id, { text: sid });
 
                     const MALVIN_TEXT = `
-🎉 *Welcome to POPKID-XTECH!* 🚀  
+🎉 *Welcome to OBED-TECHX!* 🚀  
 
 🔒 *Your Session ID* is ready!  ⚠️ _Keep it private and secure — dont share it with anyone._ 
 
 🔑 *Copy & Paste the SESSION_ID Above*🛠️ Add it to your environment variable: *SESSION_ID*.
 
 📱FOLLOW OUR CHANNEL
-https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26`;
+https://whatsapp.com/channel/0029Vb46YKVGehEEbFN3jH3I`;
 
                     await Malvin.sendMessage(Malvin.user.id, { text: MALVIN_TEXT }, { quoted: session });
 
