@@ -3,8 +3,8 @@
     "name": "sigma-session",
     "description": "Web Session Generator",
     "logo": "https://i.ibb.co/mrj4XkHF/subzero-bot.jpg",
-    "repository": "https://github.com/muzantech/sigma-session",
-    "keywords": ["MUZAN-SIGMA"],
+    "repository": "https://github.com/Trippleo1802/OBED-TECHX1",
+    "keywords": ["OBED TECHX"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
